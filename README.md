@@ -1,44 +1,46 @@
-# Calculator
+# Calculator Application
 
-This project is a simple **GUI-based calculator** built using **Java Swing**. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division, along with additional functionalities like clearing input, deleting characters, and handling negative numbers.
+This is a **GUI-based Calculator Application** built using Java and Swing, providing a user-friendly interface for basic and advanced calculations. It supports a range of arithmetic operations along with additional functionalities for improved usability.
 
 ## Features
 
-- **Addition, Subtraction, Multiplication, Division** operations.
-- **Decimal support** for floating-point arithmetic.
-- **Clear (CLR)** button to reset the display.
-- **Delete (DEL)** button to remove the last entered digit.
-- **Negation (±)** button to toggle between positive and negative values.
-- **Instant result display** upon clicking the equals (`=`) button.
-- **User-friendly GUI** built with buttons for digits (0-9) and functions arranged in a grid.
+### Basic Operations
+- **Addition (+)**
+- **Subtraction (-)**
+- **Multiplication (\*)**
+- **Division (/)**
+
+### Advanced Features
+- **Square Root (√)**: Calculates the square root of the current number.
+- **Percentage (%)**: Converts the current number to its percentage form.
+- **Memory Store (M+)**: Stores the current number in memory.
+- **Memory Recall (MR)**: Recalls the number stored in memory.
+- **History**: Displays a history of past operations in a dialog box.
+- **Negation (-)**: Changes the sign of the current number to positive or negative.
+
+### Additional Functionalities
+- **Decimal (.)**: Supports decimal values for precise calculations.
+- **Clear (CLR)**: Clears the current input field.
+- **Delete**: Deletes the last entered character in the input field.
+- **Equals (=)**: Computes and displays the result of the entered expression.
+
+## GUI Layout
+The GUI is designed with an organized layout for ease of use:
+- **Input Display**: Shows the current input and result.
+- **Buttons**: Clearly labeled and appropriately sized for easy access.
+  - **Number Buttons (0-9)**
+  - **Function Buttons**: Including addition, subtraction, multiplication, division, and advanced options such as square root, percentage, memory store/recall, and history.
 
 ## Technologies Used
+- **Java**: Core language used for functionality and UI logic.
+- **Swing**: For creating the GUI components and layout.
+  
+## Getting Started
 
-- **Java Swing** for the graphical user interface.
-- **ActionListeners** for button interactions.
-- **GridLayout** for arranging buttons in a structured format.
+### Prerequisites
+- **Java 8** or higher.
 
-## How to Run
-
-1. Clone the repository.
-2. Compile the `Calculator.java` file:
+### Installation
+1. Clone this repository:
    ```bash
-   javac Calculator.java
-   ```
-3. Run the program:
-   ```bash
-   java Calculator
-   ```
-
-## Project Structure
-
-- The main functionality is handled by the `Calculator` class.
-- GUI components include:
-  - A `JTextField` for displaying the entered numbers and results.
-  - Number buttons (0-9) and operation buttons (`+`, `-`, `*`, `/`).
-  - Special function buttons like Clear (CLR), Delete, Equals (`=`), Decimal (`.`), and Negate (`(-)`).
-
-## Future Enhancements
-
-- Add support for advanced mathematical operations (e.g., square root, percentage).
-- Implement keyboard shortcuts for better usability.
+   git clone https://github.com/mvk24199/Calculator.git
